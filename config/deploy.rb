@@ -37,7 +37,6 @@ default_run_options[:pty] = true
 # Override these in your stage files if your web server group is something other than apache
 set :httpd_group, 'apache'
 
-
 #set this to where you have installed your wp site locally (http://[local_domain]/wp-admin/ should exist. )
 
 set :local_domain, 'deploywp.dev/' #changed
